@@ -5,20 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="EreGummy">
     <title>EreGummy</title>
+
+    <!-- Preload do CSS crítico e carregamento assíncrono -->
     <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="style.css"></noscript>
     <noscript><link rel="stylesheet" href="styles.css"></noscript>
+
+    <!-- Ícones FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
+
+    <!-- Preload de scripts externos -->
     <link rel="preload" href="https://scripts.converteai.net/878e8e96-9e3c-48f1-96d9-9d726cef585a/players/67360ac02eb080000b6d56c5/player.js" as="script">
     <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+
+    <!-- Preload de imagens e vídeos -->
     <link rel="preload" href="https://images.converteai.net/878e8e96-9e3c-48f1-96d9-9d726cef585a/players/67360ac02eb080000b6d56c5/thumbnail.jpg" as="image">
     <link rel="preload" href="https://cdn.converteai.net/878e8e96-9e3c-48f1-96d9-9d726cef585a/6736021bd01bcf000b899a00/main.m3u8" as="fetch">
+
+    <!-- DNS Prefetch para acelerar carregamento -->
     <link rel="dns-prefetch" href="https://cdn.converteai.net">
     <link rel="dns-prefetch" href="https://scripts.converteai.net">
     <link rel="dns-prefetch" href="https://images.converteai.net">
     <link rel="dns-prefetch" href="https://api.vturb.com.br">
 </head>
+
 <body>
     <div class="container">
         <!-- Headline -->
